@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+main {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: oklch(0% 0 0deg);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.box {
+  height: 250px;
+  aspect-ratio: 1/1;
+  transform: scale(1);
+  border-radius: 10px;
+  transition: transform 0.25s ease, opacity 0.3s ease;
+  opacity: 0.8;
+}
+.box:nth-child(1) {
+  background-color: cyan;
+}
+.box:nth-child(2) {
+  background-color: hotpink;
+}
+.box:nth-child(3) {
+  background-color: purple;
+}
+.box:hover {
+  transform: scale(1.2) !important;
+  opacity: 1 !important;
+}
+
+main:has(.box:hover) .box {
+  transform: scale(0.9);
+  opacity: 0.6;
+}/*# sourceMappingURL=style.css.map */
