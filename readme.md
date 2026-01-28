@@ -22,7 +22,7 @@ The focus is on **advanced CSS selectors**, **state-aware styling**, and **clean
 ## 🌐 Live Demo / Preview
 
 View the hover interaction live here:  
-👉 **Live Demo:** https://harsh-codes-hub.github.io/Hover-Effect-with-has---TASK33/
+👉 **Live Demo:** https://harsh-codes-hub.github.io/Hover-Effect-with-has-TASK33/
 
 Hover over any box to see how other elements respond ✨
 
